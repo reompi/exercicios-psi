@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\bin\Debug\exercicio 20.exe.config
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\bin\Debug\exercicio 20.exe
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\bin\Debug\exercicio 20.pdb
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\bin\Debug\exercicio 20.xml
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\obj\Debug\exercicio 20.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\obj\Debug\exercicio_20.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\obj\Debug\exercicio 20.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\obj\Debug\exercicio 20.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\obj\Debug\exercicio 20.exe
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\obj\Debug\exercicio 20.xml
+C:\Users\123746\Documents\exerciscios psi\exercicio 20\exercicio 20\obj\Debug\exercicio 20.pdb
