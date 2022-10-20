@@ -1,0 +1,22 @@
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\bin\Debug\exercicio6.exe.config
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\bin\Debug\exercicio6.exe
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\bin\Debug\exercicio6.pdb
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\bin\Debug\exercicio6.xml
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\obj\Debug\exercicio6.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\obj\Debug\exercicio6.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\obj\Debug\exercicio6.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\obj\Debug\exercicio6.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\obj\Debug\exercicio6.exe
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\obj\Debug\exercicio6.xml
+C:\Users\123746\Documents\exerciscios psi\exercicio6\exercicio6\obj\Debug\exercicio6.pdb
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\obj\Debug\exercicio6.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\obj\Debug\exercicio6.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\obj\Debug\exercicio6.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\obj\Debug\exercicio6.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\obj\Debug\exercicio6.exe
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\obj\Debug\exercicio6.xml
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\obj\Debug\exercicio6.pdb
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\bin\Debug\exercicio6.exe.config
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\bin\Debug\exercicio6.exe
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\bin\Debug\exercicio6.pdb
+C:\Users\123746\Documents\exerciscios psi\exercicio 6\exercicio6\bin\Debug\exercicio6.xml
