@@ -1,0 +1,11 @@
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\bin\Debug\exericicio n 12.exe.config
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\bin\Debug\exericicio n 12.exe
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\bin\Debug\exericicio n 12.pdb
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\bin\Debug\exericicio n 12.xml
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\obj\Debug\exericicio_n_12.Resources.resources
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\obj\Debug\exericicio n 12.vbproj.GenerateResource.cache
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\obj\Debug\exericicio n 12.vbproj.CoreCompileInputs.cache
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\obj\Debug\exericicio n 12.exe
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\obj\Debug\exericicio n 12.xml
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\obj\Debug\exericicio n 12.pdb
+C:\Users\123746\source\repos\exericicio n 12\exericicio n 12\obj\Debug\exericicio n 12.vbprojAssemblyReference.cache

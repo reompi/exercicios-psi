@@ -1,0 +1,11 @@
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\bin\Debug\Ns ate 100.exe.config
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\bin\Debug\Ns ate 100.exe
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\bin\Debug\Ns ate 100.pdb
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\bin\Debug\Ns ate 100.xml
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\obj\Debug\Ns ate 100.vbprojAssemblyReference.cache
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\obj\Debug\Ns_ate_100.Resources.resources
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\obj\Debug\Ns ate 100.vbproj.GenerateResource.cache
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\obj\Debug\Ns ate 100.vbproj.CoreCompileInputs.cache
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\obj\Debug\Ns ate 100.exe
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\obj\Debug\Ns ate 100.xml
+C:\Users\123746\source\repos\Ns ate 100\Ns ate 100\obj\Debug\Ns ate 100.pdb

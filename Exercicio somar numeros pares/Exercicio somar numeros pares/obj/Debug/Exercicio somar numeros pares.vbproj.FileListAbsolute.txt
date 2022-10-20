@@ -1,0 +1,11 @@
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\bin\Debug\Exercicio somar numeros pares.exe.config
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\bin\Debug\Exercicio somar numeros pares.exe
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\bin\Debug\Exercicio somar numeros pares.pdb
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\bin\Debug\Exercicio somar numeros pares.xml
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\obj\Debug\Exercicio somar numeros pares.vbprojAssemblyReference.cache
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\obj\Debug\Exercicio_somar_numeros_pares.Resources.resources
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\obj\Debug\Exercicio somar numeros pares.vbproj.GenerateResource.cache
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\obj\Debug\Exercicio somar numeros pares.vbproj.CoreCompileInputs.cache
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\obj\Debug\Exercicio somar numeros pares.exe
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\obj\Debug\Exercicio somar numeros pares.xml
+C:\Users\123746\source\repos\Exercicio somar numeros pares\Exercicio somar numeros pares\obj\Debug\Exercicio somar numeros pares.pdb
