@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\bin\Debug\exercicio 14.exe.config
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\bin\Debug\exercicio 14.exe
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\bin\Debug\exercicio 14.pdb
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\bin\Debug\exercicio 14.xml
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\obj\Debug\exercicio_14.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\obj\Debug\exercicio 14.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\obj\Debug\exercicio 14.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\obj\Debug\exercicio 14.exe
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\obj\Debug\exercicio 14.xml
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\obj\Debug\exercicio 14.pdb
+C:\Users\123746\Documents\exerciscios psi\exercicio 14\exercicio 14\obj\Debug\exercicio 14.vbprojAssemblyReference.cache

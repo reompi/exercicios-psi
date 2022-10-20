@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\bin\Debug\exerccucio 17.exe.config
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\bin\Debug\exerccucio 17.exe
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\bin\Debug\exerccucio 17.pdb
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\bin\Debug\exerccucio 17.xml
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\obj\Debug\exerccucio 17.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\obj\Debug\exerccucio_17.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\obj\Debug\exerccucio 17.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\obj\Debug\exerccucio 17.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\obj\Debug\exerccucio 17.exe
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\obj\Debug\exerccucio 17.xml
+C:\Users\123746\Documents\exerciscios psi\exerccucio 17\exerccucio 17\obj\Debug\exerccucio 17.pdb

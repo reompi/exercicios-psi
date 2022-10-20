@@ -1,0 +1,11 @@
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\bin\Debug\exercicio 16.exe.config
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\bin\Debug\exercicio 16.exe
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\bin\Debug\exercicio 16.pdb
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\bin\Debug\exercicio 16.xml
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\obj\Debug\exercicio 16.vbprojAssemblyReference.cache
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\obj\Debug\exercicio_16.Resources.resources
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\obj\Debug\exercicio 16.vbproj.GenerateResource.cache
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\obj\Debug\exercicio 16.vbproj.CoreCompileInputs.cache
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\obj\Debug\exercicio 16.exe
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\obj\Debug\exercicio 16.xml
+C:\Users\123746\source\repos\exercicio 16\exercicio 16\obj\Debug\exercicio 16.pdb
