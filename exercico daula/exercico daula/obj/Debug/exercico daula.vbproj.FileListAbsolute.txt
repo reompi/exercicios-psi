@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\obj\Debug\exercico daula.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\obj\Debug\exercico_daula.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\obj\Debug\exercico daula.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\obj\Debug\exercico daula.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\bin\Debug\exercico daula.exe.config
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\bin\Debug\exercico daula.exe
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\bin\Debug\exercico daula.pdb
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\bin\Debug\exercico daula.xml
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\obj\Debug\exercico daula.exe
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\obj\Debug\exercico daula.xml
+C:\Users\123746\Documents\exerciscios psi\exercico daula\exercico daula\obj\Debug\exercico daula.pdb
