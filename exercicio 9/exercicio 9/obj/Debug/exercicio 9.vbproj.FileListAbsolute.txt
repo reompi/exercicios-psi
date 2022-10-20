@@ -1,0 +1,11 @@
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\bin\Debug\exercicio 9.exe.config
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\bin\Debug\exercicio 9.exe
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\bin\Debug\exercicio 9.pdb
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\bin\Debug\exercicio 9.xml
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\obj\Debug\exercicio 9.vbprojAssemblyReference.cache
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\obj\Debug\exercicio_9.Resources.resources
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\obj\Debug\exercicio 9.vbproj.GenerateResource.cache
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\obj\Debug\exercicio 9.vbproj.CoreCompileInputs.cache
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\obj\Debug\exercicio 9.exe
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\obj\Debug\exercicio 9.xml
+C:\Users\123746\source\repos\exercicio 9\exercicio 9\obj\Debug\exercicio 9.pdb
