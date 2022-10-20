@@ -1,0 +1,10 @@
+C:\Users\123746\Documents\exerciscios psi\exericicio 2\exericicio 2\bin\Debug\exericicio 2.exe.config
+C:\Users\123746\Documents\exerciscios psi\exericicio 2\exericicio 2\bin\Debug\exericicio 2.exe
+C:\Users\123746\Documents\exerciscios psi\exericicio 2\exericicio 2\bin\Debug\exericicio 2.pdb
+C:\Users\123746\Documents\exerciscios psi\exericicio 2\exericicio 2\bin\Debug\exericicio 2.xml
+C:\Users\123746\Documents\exerciscios psi\exericicio 2\exericicio 2\obj\Debug\exericicio_2.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\exericicio 2\exericicio 2\obj\Debug\exericicio 2.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\exericicio 2\exericicio 2\obj\Debug\exericicio 2.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\exericicio 2\exericicio 2\obj\Debug\exericicio 2.exe
+C:\Users\123746\Documents\exerciscios psi\exericicio 2\exericicio 2\obj\Debug\exericicio 2.xml
+C:\Users\123746\Documents\exerciscios psi\exericicio 2\exericicio 2\obj\Debug\exericicio 2.pdb
