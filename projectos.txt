@@ -1,0 +1,4 @@
+Email slicer - simas@gmail.com = simas
+Quotes with blank spaces to complete
+Rock paper scisors
+Lyrics passando para a proxima writeline de acordo com o tempo da musica
