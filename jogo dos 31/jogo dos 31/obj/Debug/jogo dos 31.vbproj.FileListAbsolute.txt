@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\bin\Debug\jogo dos 31.exe.config
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\bin\Debug\jogo dos 31.exe
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\bin\Debug\jogo dos 31.pdb
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\bin\Debug\jogo dos 31.xml
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\obj\Debug\jogo dos 31.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\obj\Debug\jogo_dos_31.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\obj\Debug\jogo dos 31.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\obj\Debug\jogo dos 31.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\obj\Debug\jogo dos 31.exe
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\obj\Debug\jogo dos 31.xml
+C:\Users\123746\Documents\exerciscios psi\jogo dos 31\jogo dos 31\obj\Debug\jogo dos 31.pdb

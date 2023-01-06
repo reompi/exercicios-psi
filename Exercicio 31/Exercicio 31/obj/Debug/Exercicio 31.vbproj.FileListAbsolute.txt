@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\bin\Debug\Exercicio 31.exe.config
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\bin\Debug\Exercicio 31.exe
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\bin\Debug\Exercicio 31.pdb
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\bin\Debug\Exercicio 31.xml
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\obj\Debug\Exercicio 31.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\obj\Debug\Exercicio_31.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\obj\Debug\Exercicio 31.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\obj\Debug\Exercicio 31.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\obj\Debug\Exercicio 31.exe
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\obj\Debug\Exercicio 31.xml
+C:\Users\123746\Documents\exerciscios psi\Exercicio 31\Exercicio 31\obj\Debug\Exercicio 31.pdb
