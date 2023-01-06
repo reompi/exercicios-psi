@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\bin\Debug\função raiz quadrada.exe.config
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\bin\Debug\função raiz quadrada.exe
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\bin\Debug\função raiz quadrada.pdb
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\bin\Debug\função raiz quadrada.xml
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\obj\Debug\função raiz quadrada.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\obj\Debug\função_raiz_quadrada.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\obj\Debug\função raiz quadrada.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\obj\Debug\função raiz quadrada.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\obj\Debug\função raiz quadrada.exe
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\obj\Debug\função raiz quadrada.xml
+C:\Users\123746\Documents\exerciscios psi\função raiz quadrada\função raiz quadrada\obj\Debug\função raiz quadrada.pdb

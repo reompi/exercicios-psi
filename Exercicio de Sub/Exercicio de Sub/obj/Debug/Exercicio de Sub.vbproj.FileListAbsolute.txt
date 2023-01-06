@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\bin\Debug\Exercicio de Sub.exe.config
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\bin\Debug\Exercicio de Sub.exe
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\bin\Debug\Exercicio de Sub.pdb
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\bin\Debug\Exercicio de Sub.xml
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\obj\Debug\Exercicio de Sub.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\obj\Debug\Exercicio_de_Sub.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\obj\Debug\Exercicio de Sub.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\obj\Debug\Exercicio de Sub.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\obj\Debug\Exercicio de Sub.exe
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\obj\Debug\Exercicio de Sub.xml
+C:\Users\123746\Documents\exerciscios psi\Exercicio de Sub\Exercicio de Sub\obj\Debug\Exercicio de Sub.pdb
