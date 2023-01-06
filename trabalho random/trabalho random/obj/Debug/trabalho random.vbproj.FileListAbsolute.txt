@@ -1,0 +1,13 @@
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\bin\Debug\trabalho random.exe.config
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\bin\Debug\trabalho random.exe
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\bin\Debug\trabalho random.pdb
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\bin\Debug\trabalho random.xml
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\obj\Debug\trabalho random.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\obj\Debug\trabalho_random.Form1.resources
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\obj\Debug\trabalho_random.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\obj\Debug\trabalho random.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\obj\Debug\trabalho random.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\obj\Debug\trabalho random.exe
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\obj\Debug\trabalho random.xml
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\obj\Debug\trabalho random.pdb
+C:\Users\123746\Documents\exerciscios psi\trabalho random\trabalho random\obj\Debug\trabalho_random.Form2.resources
