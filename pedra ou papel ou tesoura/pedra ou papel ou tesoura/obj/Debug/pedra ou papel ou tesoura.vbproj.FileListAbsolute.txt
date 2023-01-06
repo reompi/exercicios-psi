@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\bin\Debug\pedra ou papel ou tesoura.exe.config
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\bin\Debug\pedra ou papel ou tesoura.exe
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\bin\Debug\pedra ou papel ou tesoura.pdb
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\bin\Debug\pedra ou papel ou tesoura.xml
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\obj\Debug\pedra ou papel ou tesoura.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\obj\Debug\pedra_ou_papel_ou_tesoura.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\obj\Debug\pedra ou papel ou tesoura.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\obj\Debug\pedra ou papel ou tesoura.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\obj\Debug\pedra ou papel ou tesoura.exe
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\obj\Debug\pedra ou papel ou tesoura.xml
+C:\Users\123746\Documents\exerciscios psi\pedra ou papel ou tesoura\pedra ou papel ou tesoura\obj\Debug\pedra ou papel ou tesoura.pdb

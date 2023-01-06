@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\bin\Debug\trabalho de grupo.exe.config
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\bin\Debug\trabalho de grupo.exe
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\bin\Debug\trabalho de grupo.pdb
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\bin\Debug\trabalho de grupo.xml
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\obj\Debug\trabalho de grupo.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\obj\Debug\trabalho_de_grupo.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\obj\Debug\trabalho de grupo.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\obj\Debug\trabalho de grupo.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\obj\Debug\trabalho de grupo.exe
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\obj\Debug\trabalho de grupo.xml
+C:\Users\123746\Documents\exerciscios psi\trabalho de grupo\trabalho de grupo\obj\Debug\trabalho de grupo.pdb

@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\bin\Debug\exercicio 32.exe.config
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\bin\Debug\exercicio 32.exe
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\bin\Debug\exercicio 32.pdb
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\bin\Debug\exercicio 32.xml
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\obj\Debug\exercicio 32.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\obj\Debug\exercicio_32.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\obj\Debug\exercicio 32.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\obj\Debug\exercicio 32.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\obj\Debug\exercicio 32.exe
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\obj\Debug\exercicio 32.xml
+C:\Users\123746\Documents\exerciscios psi\exercicio 32\exercicio 32\obj\Debug\exercicio 32.pdb
