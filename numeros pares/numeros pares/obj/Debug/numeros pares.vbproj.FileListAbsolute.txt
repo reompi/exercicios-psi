@@ -1,0 +1,11 @@
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\bin\Debug\numeros pares.exe.config
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\bin\Debug\numeros pares.exe
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\bin\Debug\numeros pares.pdb
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\bin\Debug\numeros pares.xml
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\obj\Debug\numeros pares.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\obj\Debug\numeros_pares.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\obj\Debug\numeros pares.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\obj\Debug\numeros pares.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\obj\Debug\numeros pares.exe
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\obj\Debug\numeros pares.xml
+C:\Users\123746\Documents\exerciscios psi\numeros pares\numeros pares\obj\Debug\numeros pares.pdb
