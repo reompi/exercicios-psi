@@ -1,0 +1,12 @@
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\obj\Debug\Hardest game in the world.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\obj\Debug\Hardest_game_in_the_world.Form1.resources
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\obj\Debug\Hardest_game_in_the_world.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\obj\Debug\Hardest game in the world.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\obj\Debug\Hardest game in the world.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\bin\Debug\Hardest game in the world.exe.config
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\bin\Debug\Hardest game in the world.exe
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\bin\Debug\Hardest game in the world.pdb
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\bin\Debug\Hardest game in the world.xml
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\obj\Debug\Hardest game in the world.exe
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\obj\Debug\Hardest game in the world.xml
+C:\Users\123746\Documents\exerciscios psi\Hardest game in the world\Hardest game in the world\obj\Debug\Hardest game in the world.pdb

@@ -1,0 +1,12 @@
+C:\Users\123746\Documents\exerciscios psi\teste\teste\obj\Debug\teste.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\teste\teste\obj\Debug\teste.Form1.resources
+C:\Users\123746\Documents\exerciscios psi\teste\teste\obj\Debug\teste.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\teste\teste\obj\Debug\teste.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\teste\teste\obj\Debug\teste.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\teste\teste\bin\Debug\teste.exe.config
+C:\Users\123746\Documents\exerciscios psi\teste\teste\bin\Debug\teste.exe
+C:\Users\123746\Documents\exerciscios psi\teste\teste\bin\Debug\teste.pdb
+C:\Users\123746\Documents\exerciscios psi\teste\teste\bin\Debug\teste.xml
+C:\Users\123746\Documents\exerciscios psi\teste\teste\obj\Debug\teste.exe
+C:\Users\123746\Documents\exerciscios psi\teste\teste\obj\Debug\teste.xml
+C:\Users\123746\Documents\exerciscios psi\teste\teste\obj\Debug\teste.pdb
