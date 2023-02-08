@@ -1,0 +1,12 @@
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\bin\Debug\jogo da cobra.exe.config
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\bin\Debug\jogo da cobra.exe
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\bin\Debug\jogo da cobra.pdb
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\bin\Debug\jogo da cobra.xml
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\obj\Debug\jogo da cobra.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\obj\Debug\jogo_da_cobra.Form1.resources
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\obj\Debug\jogo_da_cobra.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\obj\Debug\jogo da cobra.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\obj\Debug\jogo da cobra.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\obj\Debug\jogo da cobra.exe
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\obj\Debug\jogo da cobra.xml
+C:\Users\123746\Documents\exerciscios psi\jogo da cobra\jogo da cobra\obj\Debug\jogo da cobra.pdb

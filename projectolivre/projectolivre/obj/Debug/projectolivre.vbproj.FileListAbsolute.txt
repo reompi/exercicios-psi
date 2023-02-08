@@ -1,0 +1,12 @@
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\bin\Debug\projectolivre.exe.config
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\bin\Debug\projectolivre.exe
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\bin\Debug\projectolivre.pdb
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\bin\Debug\projectolivre.xml
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\obj\Debug\projectolivre.vbprojAssemblyReference.cache
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\obj\Debug\projectolivre.Resources.resources
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\obj\Debug\projectolivre.vbproj.GenerateResource.cache
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\obj\Debug\projectolivre.vbproj.CoreCompileInputs.cache
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\obj\Debug\projectolivre.exe
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\obj\Debug\projectolivre.xml
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\obj\Debug\projectolivre.pdb
+C:\Users\123746\Documents\exerciscios psi\projectolivre\projectolivre\obj\Debug\projectolivre.clsSegment.resources
