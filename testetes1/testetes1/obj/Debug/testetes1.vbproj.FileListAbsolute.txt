@@ -1,0 +1,12 @@
+C:\Users\123746\source\repos\testetes1\testetes1\bin\Debug\testetes1.exe.config
+C:\Users\123746\source\repos\testetes1\testetes1\bin\Debug\testetes1.exe
+C:\Users\123746\source\repos\testetes1\testetes1\bin\Debug\testetes1.pdb
+C:\Users\123746\source\repos\testetes1\testetes1\bin\Debug\testetes1.xml
+C:\Users\123746\source\repos\testetes1\testetes1\obj\Debug\testetes1.vbprojAssemblyReference.cache
+C:\Users\123746\source\repos\testetes1\testetes1\obj\Debug\testetes1.Form1.resources
+C:\Users\123746\source\repos\testetes1\testetes1\obj\Debug\testetes1.Resources.resources
+C:\Users\123746\source\repos\testetes1\testetes1\obj\Debug\testetes1.vbproj.GenerateResource.cache
+C:\Users\123746\source\repos\testetes1\testetes1\obj\Debug\testetes1.vbproj.CoreCompileInputs.cache
+C:\Users\123746\source\repos\testetes1\testetes1\obj\Debug\testetes1.exe
+C:\Users\123746\source\repos\testetes1\testetes1\obj\Debug\testetes1.xml
+C:\Users\123746\source\repos\testetes1\testetes1\obj\Debug\testetes1.pdb
