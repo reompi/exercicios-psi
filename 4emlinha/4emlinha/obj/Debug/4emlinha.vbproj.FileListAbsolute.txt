@@ -1,0 +1,12 @@
+C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\4emlinha.vbprojAssemblyReference.cache
+C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\_4emlinha.Resources.resources
+C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\4emlinha.vbproj.GenerateResource.cache
+C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\4emlinha.vbproj.CoreCompileInputs.cache
+C:\Users\123746\source\repos\4emlinha\4emlinha\bin\Debug\4emlinha.exe.config
+C:\Users\123746\source\repos\4emlinha\4emlinha\bin\Debug\4emlinha.exe
+C:\Users\123746\source\repos\4emlinha\4emlinha\bin\Debug\4emlinha.pdb
+C:\Users\123746\source\repos\4emlinha\4emlinha\bin\Debug\4emlinha.xml
+C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\_4emlinha.Form1.resources
+C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\4emlinha.exe
+C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\4emlinha.xml
+C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\4emlinha.pdb
