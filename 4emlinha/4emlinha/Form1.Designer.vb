@@ -113,7 +113,7 @@ Partial Class Form1
         '
         Me.PictureBox28.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox28.Location = New System.Drawing.Point(448, 373)
+        Me.PictureBox28.Location = New System.Drawing.Point(342, 373)
         Me.PictureBox28.Name = "PictureBox28"
         Me.PictureBox28.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox28.TabIndex = 132
@@ -123,7 +123,7 @@ Partial Class Form1
         '
         Me.PictureBox29.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox29.Location = New System.Drawing.Point(342, 373)
+        Me.PictureBox29.Location = New System.Drawing.Point(448, 373)
         Me.PictureBox29.Name = "PictureBox29"
         Me.PictureBox29.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox29.TabIndex = 131
@@ -163,7 +163,7 @@ Partial Class Form1
         '
         Me.PictureBox23.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox23.Location = New System.Drawing.Point(448, 317)
+        Me.PictureBox23.Location = New System.Drawing.Point(342, 317)
         Me.PictureBox23.Name = "PictureBox23"
         Me.PictureBox23.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox23.TabIndex = 127
@@ -173,7 +173,7 @@ Partial Class Form1
         '
         Me.PictureBox24.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox24.Location = New System.Drawing.Point(342, 317)
+        Me.PictureBox24.Location = New System.Drawing.Point(448, 317)
         Me.PictureBox24.Name = "PictureBox24"
         Me.PictureBox24.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox24.TabIndex = 126
@@ -213,7 +213,7 @@ Partial Class Form1
         '
         Me.PictureBox18.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox18.Location = New System.Drawing.Point(448, 261)
+        Me.PictureBox18.Location = New System.Drawing.Point(342, 261)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox18.TabIndex = 122
@@ -223,7 +223,7 @@ Partial Class Form1
         '
         Me.PictureBox19.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox19.Location = New System.Drawing.Point(342, 261)
+        Me.PictureBox19.Location = New System.Drawing.Point(448, 261)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox19.TabIndex = 121
@@ -263,7 +263,7 @@ Partial Class Form1
         '
         Me.PictureBox13.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox13.Location = New System.Drawing.Point(448, 205)
+        Me.PictureBox13.Location = New System.Drawing.Point(342, 205)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox13.TabIndex = 117
@@ -273,7 +273,7 @@ Partial Class Form1
         '
         Me.PictureBox14.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox14.Location = New System.Drawing.Point(342, 205)
+        Me.PictureBox14.Location = New System.Drawing.Point(448, 205)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox14.TabIndex = 116
@@ -313,7 +313,7 @@ Partial Class Form1
         '
         Me.PictureBox8.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox8.Location = New System.Drawing.Point(448, 149)
+        Me.PictureBox8.Location = New System.Drawing.Point(342, 149)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox8.TabIndex = 112
@@ -323,7 +323,7 @@ Partial Class Form1
         '
         Me.PictureBox9.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox9.Location = New System.Drawing.Point(342, 149)
+        Me.PictureBox9.Location = New System.Drawing.Point(448, 149)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox9.TabIndex = 111
@@ -363,7 +363,7 @@ Partial Class Form1
         '
         Me.PictureBox4.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox4.Location = New System.Drawing.Point(448, 93)
+        Me.PictureBox4.Location = New System.Drawing.Point(342, 93)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox4.TabIndex = 107
@@ -373,7 +373,7 @@ Partial Class Form1
         '
         Me.PictureBox2.BackColor = System.Drawing.SystemColors.Control
         Me.PictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox2.Location = New System.Drawing.Point(342, 93)
+        Me.PictureBox2.Location = New System.Drawing.Point(448, 93)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox2.TabIndex = 106
@@ -410,20 +410,20 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(461, 64)
+        Me.Button4.Location = New System.Drawing.Point(352, 64)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 137
-        Me.Button4.Text = "Button4"
+        Me.Button4.Text = "button3"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(356, 64)
+        Me.Button3.Location = New System.Drawing.Point(464, 64)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 138
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "button4"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button5

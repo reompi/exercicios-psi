@@ -2,107 +2,11 @@
     Dim pic(29) As PictureBox
     Dim posicao(4, 5) As PictureBox
     Dim butoes(4) As Button
-    Dim ticker1, ticker2, jogadas, n, i, y, x As Integer
+    Dim ticker1, ticker2, jogadas, n, y, x As Integer
     Dim cor1 As Color = ColorTranslator.FromHtml("#fc9402")
     Dim cor2 As Color = ColorTranslator.FromHtml("#02fcf4")
     Dim branco As Color = ColorTranslator.FromHtml("#fcfffe")
-    Dim cor As Color
-    Dim flag As Boolean
-
-    Sub avaliar()
-        ' vertical
-        ticker1 = 0
-        Do
-            For i = 0 To 3
-                If posicao(i, ticker1 + i).BackColor <> cor Then
-                    Exit For
-                ElseIf i = 3 Then
-                    'venceu cor
-                End If
-            Next
-            ticker1 += 1
-        Loop Until ticker1 = 4
-
-        'horizontal
-        ticker1 = 0
-        Do
-            For i = 0 To 3
-                If posicao(ticker1 + i, y).BackColor <> cor Then
-                    Exit For
-                ElseIf i = 3 Then
-                    'venceu cor
-                End If
-            Next
-            ticker1 += 1
-        Loop Until ticker1 = 4
-
-        'diagonal esquerda
-
-        ticker1 = i
-        ticker2 = y
-        Do
-            If ticker1 > 0 Or ticker2 > 0 Then
-                ticker1 -= 1
-                ticker2 -= 1
-            End If
-        Loop Until ticker1 = 0 Or ticker2 = 0
-        Do
-            For i = 0 To 3
-                Try
-                    If posicao(ticker1 + i, ticker2 + i).BackColor <> cor Then
-                        Exit For
-                    ElseIf i = 3 Then
-                        'venceu cor
-                    End If
-
-                Catch
-                    Exit For
-
-                End Try
-            Next
-            ticker1 += 1
-        Loop Until ticker1 = 5
-
-
-        'diagonal direita
-
-        Do
-            If ticker1 > 0 Or ticker2 > 0 Then
-                ticker1 += 1
-                ticker2 += 1
-            End If
-        Loop Until ticker1 = 4 Or ticker2 = 5
-
-        Do
-            For i = 0 To 3
-                Try
-                    If posicao(ticker1 - i, ticker2 + i).BackColor <> cor Then
-                        Exit For
-                    ElseIf i = 3 Then
-                        'venceu cor
-                    End If
-                Catch
-                    Exit For
-
-                End Try
-            Next
-            ticker1 -= 1
-        Loop Until ticker1 = 5
-
-
-
-    End Sub
-    Sub posic(coluna As Integer)
-        For i = 0 To 5
-            If posicao(coluna, i).BackColor = branco Then
-                posicao(coluna, i).BackColor = cor
-                x = coluna
-                y = i
-                Exit Sub
-            End If
-        Next
-    End Sub
-
+    Public cor As Color
 
     Private Sub butoes_Click(ByVal sender As Object, ByVal e As EventArgs)
         Dim butao As Button = DirectCast(sender, Button)
@@ -158,4 +62,107 @@
             Next
         Next
     End Sub
+    Sub avaliar()
+        ' vertical
+        ticker1 = 0
+        Do
+            For i = 0 To 3
+                If posicao(x, ticker1 + i).BackColor <> cor Then
+                    Exit For
+                ElseIf i = 3 Then
+                    venceucor()
+                End If
+            Next
+            ticker1 += 1
+        Loop Until ticker1 = 3
+
+        'horizontal
+        ticker1 = 0
+        Do
+            For i = 0 To 3
+                If posicao(ticker1 + i, y).BackColor <> cor Then
+                    Exit For
+                ElseIf i = 3 Then
+                    venceucor()
+                End If
+            Next
+            ticker1 += 1
+        Loop Until ticker1 = 2
+
+        'diagonal esquerda para direita
+
+        ticker1 = x + 1
+        ticker2 = y + 1
+        Do
+            ticker1 -= 1
+            ticker2 -= 1
+        Loop Until ticker1 = 0 Or ticker2 = 0
+        Do
+            For i = 0 To 3
+                Try
+                    If posicao(ticker1 + i, ticker2 + i).BackColor <> cor Then
+                        Exit For
+                    ElseIf i = 3 Then
+                        venceucor()
+                    End If
+
+                Catch
+                    Exit For
+
+                End Try
+            Next
+            ticker1 += 1
+            ticker2 += 1
+        Loop Until ticker1 = 5 Or ticker2 = 6
+
+
+        '  diagonal direita para esquerda
+
+        ticker1 = x - 1
+        ticker2 = y + 1
+        Do
+
+            ticker1 += 1
+            ticker2 -= 1
+        Loop Until ticker1 = 5 Or ticker2 = 0
+
+        Do
+            For i = 0 To 3
+                Try
+                    If posicao(ticker1 - i, ticker2 + i).BackColor <> cor Then
+                        Exit For
+                    ElseIf i = 3 Then
+                        venceucor()
+                    End If
+                Catch
+                    Exit For
+
+                End Try
+            Next
+            ticker1 -= 1
+            ticker2 += 1
+        Loop Until ticker1 <= 0
+
+
+
+    End Sub
+    Sub posic(coluna As Integer)
+        For i = 0 To 5
+            If posicao(coluna, i).BackColor = branco Then
+                posicao(coluna, i).BackColor = cor
+                x = coluna
+                y = i
+                Exit Sub
+            End If
+        Next
+    End Sub
+
+    Sub venceucor()
+        Form2.Show()
+        Me.Hide()
+
+
+    End Sub
+
+
 End Class

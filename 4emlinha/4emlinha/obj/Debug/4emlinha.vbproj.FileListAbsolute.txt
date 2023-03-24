@@ -10,3 +10,4 @@ C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\_4emlinha.Form1.resourc
 C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\4emlinha.exe
 C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\4emlinha.xml
 C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\4emlinha.pdb
+C:\Users\123746\source\repos\4emlinha\4emlinha\obj\Debug\_4emlinha.Form2.resources
