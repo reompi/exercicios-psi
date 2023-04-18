@@ -7,7 +7,7 @@
         For Each contasempregados As empregado In empregados
 
             If contasempregados.nome = utilizador.Text And contasempregados.palavrapasse = password.Text Then
-                uesrnumero = ticker
+                usernumero = ticker
                 Me.Hide()
                 userform.Show()
                 flag = False
@@ -16,7 +16,7 @@
         Next
         For Each contasadmin As admins In admin
             If contasadmin.nome = utilizador.Text And contasadmin.palavrapasse = password.Text Then
-                uesrnumero = ticker
+                usernumero = ticker
                 Me.Hide()
                 'admin form
                 flag = False
