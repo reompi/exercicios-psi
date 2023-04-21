@@ -2,12 +2,17 @@
     Public Structure empregado
         Dim nome As String
         Dim palavrapasse As String
-        Dim quandoentrou(,) As String
-        Dim quandosaio(,) As String
+
+        Dim quandoentrouhoras(,) As Integer
+        Dim quandoentrouminutos(,) As Integer
+
+
+        Dim quandosaiohoras(,) As Integer
+        Dim quandosaiominutos(,) As Integer
 
     End Structure
 
-    Public Structure admins
+        Public Structure admins
         Dim nome As String
         Dim palavrapasse As String
     End Structure

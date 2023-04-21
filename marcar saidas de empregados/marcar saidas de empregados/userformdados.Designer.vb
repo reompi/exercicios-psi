@@ -49,7 +49,7 @@ Partial Class userformdados
         '
         Me.Button4.BackColor = System.Drawing.Color.Silver
         Me.Button4.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button4.Location = New System.Drawing.Point(30, 167)
+        Me.Button4.Location = New System.Drawing.Point(12, 163)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(111, 37)
         Me.Button4.TabIndex = 14
@@ -60,7 +60,7 @@ Partial Class userformdados
         '
         Me.Button2.BackColor = System.Drawing.Color.Silver
         Me.Button2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Button2.Location = New System.Drawing.Point(30, 60)
+        Me.Button2.Location = New System.Drawing.Point(12, 56)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(111, 42)
         Me.Button2.TabIndex = 13
@@ -71,7 +71,7 @@ Partial Class userformdados
         '
         Me.Panel1.BackColor = System.Drawing.Color.White
         Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Location = New System.Drawing.Point(176, 2)
+        Me.Panel1.Location = New System.Drawing.Point(129, 1)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(10, 529)
         Me.Panel1.TabIndex = 12
@@ -92,13 +92,13 @@ Partial Class userformdados
         Me.Chart1.ChartAreas.Add(ChartArea1)
         Legend1.Name = "Legend1"
         Me.Chart1.Legends.Add(Legend1)
-        Me.Chart1.Location = New System.Drawing.Point(253, 78)
+        Me.Chart1.Location = New System.Drawing.Point(192, 78)
         Me.Chart1.Name = "Chart1"
         Series1.ChartArea = "ChartArea1"
         Series1.Legend = "Legend1"
-        Series1.Name = "Series1"
+        Series1.Name = "tempo"
         Me.Chart1.Series.Add(Series1)
-        Me.Chart1.Size = New System.Drawing.Size(469, 307)
+        Me.Chart1.Size = New System.Drawing.Size(606, 303)
         Me.Chart1.TabIndex = 15
         Me.Chart1.Text = "Chart1"
         '

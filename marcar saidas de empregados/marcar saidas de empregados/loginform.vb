@@ -32,5 +32,6 @@
     Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         empregados(0).nome = ("joao")
         empregados(0).palavrapasse = ("oreo")
+
     End Sub
 End Class
