@@ -17,7 +17,7 @@ Public Class userform
             entradasbutao.Image = My.Resources.poweroff
             empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, DateTime.Now.Day) = DateTime.Now.TimeOfDay.Hours
             empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, DateTime.Now.Day) = DateTime.Now.TimeOfDay.Minutes
-            Label2.Text = empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, DateTime.Now.Day).ToString + " : " + empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, DateTime.Now.Day) = DateTime.Now.TimeOfDay.Minutes
+            Label2.Text = empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, DateTime.Now.Day).ToString & " : " & empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, DateTime.Now.Day)
             Timer1.Start()
             ticker2 = 0
             flag = True
@@ -26,7 +26,7 @@ Public Class userform
             entradasbutao.Image = My.Resources.poweron
             empregados(usernumero).quandosaiohoras(DateTime.Now.Month, DateTime.Now.Day) = DateTime.Now.TimeOfDay.Hours
             empregados(usernumero).quandosaiominutos(DateTime.Now.Month, DateTime.Now.Day) = DateTime.Now.TimeOfDay.Minutes
-            Label2.Text = empregados(usernumero).quandosaiominutos(DateTime.Now.Month, DateTime.Now.Day).ToString
+            Label2.Text = empregados(usernumero).quandosaiohoras(DateTime.Now.Month, DateTime.Now.Day).ToString & " : " & empregados(usernumero).quandosaiominutos(DateTime.Now.Month, DateTime.Now.Day)
             Timer1.Start()
             ticker2 = 0
             flag = False
@@ -49,6 +49,8 @@ Public Class userform
         ReDim Preserve empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, 31)
         ReDim Preserve empregados(usernumero).quandosaiohoras(DateTime.Now.Month, 31)
     End Sub
+
+
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Me.Close()

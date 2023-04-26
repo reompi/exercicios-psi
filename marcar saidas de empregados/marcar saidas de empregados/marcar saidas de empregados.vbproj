@@ -74,6 +74,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminform.Designer.vb">
+      <DependentUpon>adminform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adminform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="loginform.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="adminform.resx">
+      <DependentUpon>adminform.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="loginform.resx">
       <DependentUpon>loginform.vb</DependentUpon>
     </EmbeddedResource>

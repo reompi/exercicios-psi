@@ -18,7 +18,7 @@
             If contasadmin.nome = utilizador.Text And contasadmin.palavrapasse = password.Text Then
                 usernumero = ticker
                 Me.Hide()
-                'admin form
+                adminform.Show()
                 flag = False
             End If
             ticker += 1
@@ -33,5 +33,7 @@
         empregados(0).nome = ("joao")
         empregados(0).palavrapasse = ("oreo")
 
+        admin(0).nome = "maria"
+        admin(0).palavrapasse = "pintas"
     End Sub
 End Class
