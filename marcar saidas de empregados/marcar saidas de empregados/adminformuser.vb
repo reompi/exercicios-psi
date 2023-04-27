@@ -1,9 +1,9 @@
-﻿Public Class userformdados
+﻿Public Class adminformuser
     Private Sub userformdados_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim diferencamin As Integer
         Dim diferencahoras As Integer
         Dim diferencatotal As Integer
-
+        'nomeuserselecicionado
 
         For x = 1 To 31
             If empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, x) <= empregados(usernumero).quandosaiominutos(DateTime.Now.Month, x) Then
@@ -24,8 +24,5 @@
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Me.Close()
-        userform.Show()
-    End Sub
+
 End Class

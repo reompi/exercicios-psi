@@ -96,7 +96,7 @@ Partial Class userformdados
         Me.Chart1.Name = "Chart1"
         Series1.ChartArea = "ChartArea1"
         Series1.Legend = "Legend1"
-        Series1.Name = "tempo"
+        Series1.Name = "minutos"
         Me.Chart1.Series.Add(Series1)
         Me.Chart1.Size = New System.Drawing.Size(606, 303)
         Me.Chart1.TabIndex = 15
