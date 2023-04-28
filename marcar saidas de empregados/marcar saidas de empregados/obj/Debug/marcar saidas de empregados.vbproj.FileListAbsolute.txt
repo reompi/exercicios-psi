@@ -28,3 +28,6 @@ C:\Users\123746\source\repos\exercicios-psi\marcar saidas de empregados\marcar s
 C:\Users\123746\source\repos\exercicios-psi\marcar saidas de empregados\marcar saidas de empregados\obj\Debug\marcar saidas de empregados.xml
 C:\Users\123746\source\repos\exercicios-psi\marcar saidas de empregados\marcar saidas de empregados\obj\Debug\marcar saidas de empregados.pdb
 C:\Users\123746\source\repos\exercicios-psi\marcar saidas de empregados\marcar saidas de empregados\obj\Debug\marcar_saidas_de_empregados.adminform.resources
+C:\Users\123746\source\repos\exercicios-psi\marcar saidas de empregados\marcar saidas de empregados\obj\Debug\marcar_saidas_de_empregados.adicionarusersform.resources
+C:\Users\123746\source\repos\exercicios-psi\marcar saidas de empregados\marcar saidas de empregados\obj\Debug\marcar_saidas_de_empregados.adminformuser.resources
+C:\Users\123746\source\repos\exercicios-psi\marcar saidas de empregados\marcar saidas de empregados\obj\Debug\marcar_saidas_de_empregados.eliminarusersform.resources

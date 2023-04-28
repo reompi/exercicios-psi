@@ -16,9 +16,9 @@
             diferencatotal = 60 * diferencahoras + diferencamin
 
             If diferencahoras = 0 Then
-                Me.Chart1.Series("tempo").Points.AddXY(x, diferencamin)
+                Me.Chart1.Series("minutos").Points.AddXY(x, diferencamin)
             Else
-                Me.Chart1.Series("tempo").Points.AddXY(x, diferencatotal)
+                Me.Chart1.Series("minutos").Points.AddXY(x, diferencatotal)
             End If
         Next
 

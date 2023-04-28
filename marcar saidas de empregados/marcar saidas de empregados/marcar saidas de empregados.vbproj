@@ -74,6 +74,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adicionarusersform.Designer.vb">
+      <DependentUpon>adicionarusersform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="adicionarusersform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="adminform.Designer.vb">
       <DependentUpon>adminform.vb</DependentUpon>
     </Compile>
@@ -84,6 +90,12 @@
       <DependentUpon>adminformuser.vb</DependentUpon>
     </Compile>
     <Compile Include="adminformuser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eliminarusersform.Designer.vb">
+      <DependentUpon>eliminarusersform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="eliminarusersform.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="loginform.vb">
@@ -123,11 +135,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="adicionarusersform.resx">
+      <DependentUpon>adicionarusersform.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="adminform.resx">
       <DependentUpon>adminform.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="adminformuser.resx">
       <DependentUpon>adminformuser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eliminarusersform.resx">
+      <DependentUpon>eliminarusersform.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loginform.resx">
       <DependentUpon>loginform.vb</DependentUpon>

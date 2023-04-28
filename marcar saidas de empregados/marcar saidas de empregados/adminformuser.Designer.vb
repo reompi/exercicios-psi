@@ -27,7 +27,13 @@ Partial Class adminformuser
         Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.Chart1 = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Chart1
@@ -37,7 +43,7 @@ Partial Class adminformuser
         Me.Chart1.ChartAreas.Add(ChartArea1)
         Legend1.Name = "Legend1"
         Me.Chart1.Legends.Add(Legend1)
-        Me.Chart1.Location = New System.Drawing.Point(130, 70)
+        Me.Chart1.Location = New System.Drawing.Point(182, 98)
         Me.Chart1.Name = "Chart1"
         Series1.ChartArea = "ChartArea1"
         Series1.Legend = "Legend1"
@@ -57,17 +63,73 @@ Partial Class adminformuser
         Me.Label2.Size = New System.Drawing.Size(0, 16)
         Me.Label2.TabIndex = 16
         '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.Silver
+        Me.Button4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Button4.Location = New System.Drawing.Point(27, 162)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(111, 37)
+        Me.Button4.TabIndex = 20
+        Me.Button4.Text = "adcionar users"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Silver
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Button2.Location = New System.Drawing.Point(27, 55)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(111, 42)
+        Me.Button2.TabIndex = 19
+        Me.Button2.Text = "selecionador"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Controls.Add(Me.Button1)
+        Me.Panel1.Location = New System.Drawing.Point(144, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(10, 529)
+        Me.Panel1.TabIndex = 18
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(0, 0)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Silver
+        Me.Button3.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Button3.Location = New System.Drawing.Point(27, 262)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(111, 37)
+        Me.Button3.TabIndex = 31
+        Me.Button3.Text = "eliminar users"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
         'adminformuser
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DimGray
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Chart1)
         Me.Controls.Add(Me.Label2)
         Me.Name = "adminformuser"
         Me.Text = "adminformuser"
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -75,4 +137,9 @@ Partial Class adminformuser
 
     Friend WithEvents Chart1 As DataVisualization.Charting.Chart
     Friend WithEvents Label2 As Label
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button3 As Button
 End Class

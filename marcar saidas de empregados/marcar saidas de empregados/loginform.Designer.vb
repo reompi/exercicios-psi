@@ -61,9 +61,9 @@ Partial Class login
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
         Me.Label2.Location = New System.Drawing.Point(202, 188)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(50, 13)
+        Me.Label2.Size = New System.Drawing.Size(33, 13)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Utilizador"
+        Me.Label2.Text = "nome"
         '
         'Label3
         '
