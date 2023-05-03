@@ -17,9 +17,10 @@
         Dim palavrapasse As String
     End Structure
 
-    Public empregados(0) As empregado
-    Public admin(0) As admins
+    Public empregados() As empregado
+    Public admin() As admins
     Public usernumero As Integer
+
 
 
 

@@ -43,20 +43,10 @@ Public Class userform
         End If
     End Sub
 
-    Private Sub userform_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ReDim Preserve empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, 31)
-        ReDim Preserve empregados(usernumero).quandosaiominutos(DateTime.Now.Month, 31)
-        ReDim Preserve empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, 31)
-        ReDim Preserve empregados(usernumero).quandosaiohoras(DateTime.Now.Month, 31)
-    End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
-    End Sub
 
-    Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
 
-    End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Me.Close()

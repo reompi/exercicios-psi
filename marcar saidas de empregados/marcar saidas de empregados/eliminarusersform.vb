@@ -4,64 +4,112 @@
     Dim atual, anterior As empregado
     Dim flag As Boolean
     Private Sub eliminarusersform_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ListBox1.Items.Clear()
 
         For Each contasempregados As empregado In empregados
-            ListBox1.Items.Add(contasempregados.nome)
+            Try
+                ListBox1.Items.Add(contasempregados.nome)
+            Catch
+
+            End Try
+
+            ReDim Preserve contasempregados.quandoentrouhoras(DateTime.Now.Month, 31)
+            ReDim Preserve contasempregados.quandosaiominutos(DateTime.Now.Month, 31)
+            ReDim Preserve contasempregados.quandoentrouminutos(DateTime.Now.Month, 31)
+            ReDim Preserve contasempregados.quandosaiohoras(DateTime.Now.Month, 31)
+
+
         Next
 
+        ReDim anterior.quandoentrouhoras(DateTime.Now.Month, 31)
+        ReDim anterior.quandosaiominutos(DateTime.Now.Month, 31)
+        ReDim anterior.quandoentrouminutos(DateTime.Now.Month, 31)
+        ReDim anterior.quandosaiohoras(DateTime.Now.Month, 31)
 
+        ReDim atual.quandoentrouhoras(DateTime.Now.Month, 31)
+        ReDim atual.quandosaiominutos(DateTime.Now.Month, 31)
+        ReDim atual.quandoentrouminutos(DateTime.Now.Month, 31)
+        ReDim atual.quandosaiohoras(DateTime.Now.Month, 31)
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Close()
+        adminform.Show()
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Me.Close()
+        adicionarusersform.Show()
+    End Sub
+
 
     Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
         ticker = 0
         For Each contasempregados As empregado In empregados
             If contasempregados.nome = ListBox1.SelectedItem Then
-                If MessageBox.Show("palavras passes diferentes", "", MessageBoxButtons.YesNo) = DialogResult.No Then
+                If MessageBox.Show("tem a certeza que desaja eliminar a conta " & contasempregados.nome, "", MessageBoxButtons.YesNo) = DialogResult.No Then
 
                     Exit Sub
-
                 End If
+
                 contaeliminada = ticker
 
-                End If
-                ticker += 1
+            End If
+            ticker += 1
 
         Next
         flag = True
-        For i = UBound(empregados) To contaeliminada
+        For i = UBound(empregados) To contaeliminada Step -1
 
 
 
-            If flag = False Then
 
-                anterior.nome = empregados(i).nome
-                empregados(i).nome = atual.nome
-                atual.nome = anterior.nome
+            anterior.nome = empregados(i).nome
+            empregados(i).nome = atual.nome
+            atual.nome = anterior.nome
 
 
-                anterior.palavrapasse = empregados(i).palavrapasse
-                empregados(i).palavrapasse = atual.palavrapasse
-                atual.palavrapasse = anterior.palavrapasse
+            anterior.palavrapasse = empregados(i).palavrapasse
+            empregados(i).palavrapasse = atual.palavrapasse
+            atual.palavrapasse = anterior.palavrapasse
 
-                anterior.quandoentrouhoras(DateTime.Now.Month, i) = empregados(i).quandoentrouhoras(DateTime.Now.Month, i)
-                empregados(i).quandoentrouhoras(DateTime.Now.Month, i) = atual.quandoentrouhoras(DateTime.Now.Month, i)
-                atual.quandoentrouhoras(DateTime.Now.Month, i) = anterior.quandoentrouhoras(DateTime.Now.Month, i)
+            For diasdomes = 1 To 31
+                anterior.quandoentrouhoras(DateTime.Now.Month, diasdomes) = empregados(i).quandoentrouhoras(DateTime.Now.Month, diasdomes)
+                'empregados(i).quandoentrouhoras(DateTime.Now.Month, diasdomes) = atual.quandoentrouhoras(DateTime.Now.Month, diasdomes)
+                'atual.quandoentrouhoras(DateTime.Now.Month, diasdomes) = anterior.quandoentrouhoras(DateTime.Now.Month, diasdomes)
 
-                anterior.quandoentrouminutos(DateTime.Now.Month, i) = empregados(i).quandoentrouminutos(DateTime.Now.Month, i)
-                empregados(i).quandoentrouminutos(DateTime.Now.Month, i) = atual.quandoentrouminutos(DateTime.Now.Month, i)
-                atual.quandoentrouminutos(DateTime.Now.Month, i) = anterior.quandoentrouminutos(DateTime.Now.Month, i)
+                'anterior.quandoentrouminutos(DateTime.Now.Month, diasdomes) = empregados(i).quandoentrouminutos(DateTime.Now.Month, diasdomes)
+                'empregados(i).quandoentrouminutos(DateTime.Now.Month, diasdomes) = atual.quandoentrouminutos(DateTime.Now.Month, diasdomes)
+                'atual.quandoentrouminutos(DateTime.Now.Month, diasdomes) = anterior.quandoentrouminutos(DateTime.Now.Month, diasdomes)
 
-                anterior.quandosaiohoras(DateTime.Now.Month, i) = empregados(i).quandosaiohoras(DateTime.Now.Month, i)
-                empregados(i).quandosaiohoras(DateTime.Now.Month, i) = atual.quandosaiohoras(DateTime.Now.Month, i)
-                atual.quandosaiohoras(DateTime.Now.Month, i) = anterior.quandosaiohoras(DateTime.Now.Month, i)
+                'anterior.quandosaiohoras(DateTime.Now.Month, diasdomes) = empregados(i).quandosaiohoras(DateTime.Now.Month, diasdomes)
+                'empregados(i).quandosaiohoras(DateTime.Now.Month, diasdomes) = atual.quandosaiohoras(DateTime.Now.Month, diasdomes)
+                'atual.quandosaiohoras(DateTime.Now.Month, diasdomes) = anterior.quandosaiohoras(DateTime.Now.Month, diasdomes)
 
-                anterior.quandosaiominutos(DateTime.Now.Month, i) = empregados(i).quandosaiominutos(DateTime.Now.Month, i)
-                empregados(i).quandosaiominutos(DateTime.Now.Month, i) = atual.quandosaiominutos(DateTime.Now.Month, i)
-                atual.quandosaiominutos(DateTime.Now.Month, i) = anterior.quandosaiominutos(DateTime.Now.Month, i)
+                'anterior.quandosaiominutos(DateTime.Now.Month, diasdomes) = empregados(i).quandosaiominutos(DateTime.Now.Month, diasdomes)
+                'empregados(i).quandosaiominutos(DateTime.Now.Month, diasdomes) = atual.quandosaiominutos(DateTime.Now.Month, diasdomes)
+                'atual.quandosaiominutos(DateTime.Now.Month, diasdomes) = anterior.quandosaiominutos(DateTime.Now.Month, diasdomes)
+            Next
 
-            End If
-            flag = False
 
+
+
+
+
+        Next
+        If UBound(empregados) = 0 Then
+            ReDim empregados(0)
+        Else
+            ReDim Preserve empregados(UBound(empregados) - 1)
+        End If
+        ListBox1.Items.Clear()
+        For Each contasempregados As empregado In empregados
+
+            Try
+                ListBox1.Items.Add(contasempregados.nome)
+            Catch
+
+            End Try
         Next
     End Sub
 

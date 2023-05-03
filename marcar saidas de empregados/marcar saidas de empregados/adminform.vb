@@ -2,9 +2,14 @@
     Dim ticker As Integer
 
     Private Sub adminform_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ListBox1.Items.Clear()
 
         For Each contasempregados As empregado In empregados
-            ListBox1.Items.Add(contasempregados.nome)
+            Try
+                ListBox1.Items.Add(contasempregados.nome)
+            Catch
+
+            End Try
         Next
 
     End Sub
@@ -26,5 +31,10 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Me.Close()
         adicionarusersform.Show()
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Me.Close()
+        eliminarusersform.Show()
     End Sub
 End Class

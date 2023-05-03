@@ -10,18 +10,33 @@
                 MessageBox.Show("palavras passes diferentes")
                 Exit Sub
             End If
+        Next
+        ReDim Preserve empregados(UBound(empregados) + 1)
 
-            ReDim Preserve empregados(UBound(empregados) + 1)
+            ReDim Preserve empregados(UBound(empregados)).quandoentrouhoras(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(UBound(empregados)).quandosaiominutos(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(UBound(empregados)).quandoentrouminutos(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(UBound(empregados)).quandosaiohoras(DateTime.Now.Month, 31)
+
 
             empregados(UBound(empregados)).nome = nome.Text
 
             empregados(UBound(empregados)).palavrapasse = passe.Text
 
-        Next
+
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-
+        Me.Hide()
+        eliminarusersform.Show()
     End Sub
 
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Hide()
+        adminform.Show()
+    End Sub
+
+    Private Sub adicionarusersform_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
