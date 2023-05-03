@@ -12,13 +12,6 @@
             Catch
 
             End Try
-
-            ReDim Preserve contasempregados.quandoentrouhoras(DateTime.Now.Month, 31)
-            ReDim Preserve contasempregados.quandosaiominutos(DateTime.Now.Month, 31)
-            ReDim Preserve contasempregados.quandoentrouminutos(DateTime.Now.Month, 31)
-            ReDim Preserve contasempregados.quandosaiohoras(DateTime.Now.Month, 31)
-
-
         Next
 
         ReDim anterior.quandoentrouhoras(DateTime.Now.Month, 31)
@@ -62,7 +55,13 @@
         For i = UBound(empregados) To contaeliminada Step -1
 
 
+            ReDim Preserve empregados(i).quandoentrouhoras(DateTime.Now.Month, 31)
 
+            ReDim Preserve empregados(i).quandosaiohoras(DateTime.Now.Month, 31)
+
+            ReDim Preserve empregados(i).quandoentrouminutos(DateTime.Now.Month, 31)
+
+            ReDim Preserve empregados(i).quandosaiominutos(DateTime.Now.Month, 31)
 
             anterior.nome = empregados(i).nome
             empregados(i).nome = atual.nome
@@ -74,21 +73,22 @@
             atual.palavrapasse = anterior.palavrapasse
 
             For diasdomes = 1 To 31
+
                 anterior.quandoentrouhoras(DateTime.Now.Month, diasdomes) = empregados(i).quandoentrouhoras(DateTime.Now.Month, diasdomes)
-                'empregados(i).quandoentrouhoras(DateTime.Now.Month, diasdomes) = atual.quandoentrouhoras(DateTime.Now.Month, diasdomes)
-                'atual.quandoentrouhoras(DateTime.Now.Month, diasdomes) = anterior.quandoentrouhoras(DateTime.Now.Month, diasdomes)
+                empregados(i).quandoentrouhoras(DateTime.Now.Month, diasdomes) = atual.quandoentrouhoras(DateTime.Now.Month, diasdomes)
+                atual.quandoentrouhoras(DateTime.Now.Month, diasdomes) = anterior.quandoentrouhoras(DateTime.Now.Month, diasdomes)
 
-                'anterior.quandoentrouminutos(DateTime.Now.Month, diasdomes) = empregados(i).quandoentrouminutos(DateTime.Now.Month, diasdomes)
-                'empregados(i).quandoentrouminutos(DateTime.Now.Month, diasdomes) = atual.quandoentrouminutos(DateTime.Now.Month, diasdomes)
-                'atual.quandoentrouminutos(DateTime.Now.Month, diasdomes) = anterior.quandoentrouminutos(DateTime.Now.Month, diasdomes)
+                anterior.quandoentrouminutos(DateTime.Now.Month, diasdomes) = empregados(i).quandoentrouminutos(DateTime.Now.Month, diasdomes)
+                empregados(i).quandoentrouminutos(DateTime.Now.Month, diasdomes) = atual.quandoentrouminutos(DateTime.Now.Month, diasdomes)
+                atual.quandoentrouminutos(DateTime.Now.Month, diasdomes) = anterior.quandoentrouminutos(DateTime.Now.Month, diasdomes)
 
-                'anterior.quandosaiohoras(DateTime.Now.Month, diasdomes) = empregados(i).quandosaiohoras(DateTime.Now.Month, diasdomes)
-                'empregados(i).quandosaiohoras(DateTime.Now.Month, diasdomes) = atual.quandosaiohoras(DateTime.Now.Month, diasdomes)
-                'atual.quandosaiohoras(DateTime.Now.Month, diasdomes) = anterior.quandosaiohoras(DateTime.Now.Month, diasdomes)
+                anterior.quandosaiohoras(DateTime.Now.Month, diasdomes) = empregados(i).quandosaiohoras(DateTime.Now.Month, diasdomes)
+                empregados(i).quandosaiohoras(DateTime.Now.Month, diasdomes) = atual.quandosaiohoras(DateTime.Now.Month, diasdomes)
+                atual.quandosaiohoras(DateTime.Now.Month, diasdomes) = anterior.quandosaiohoras(DateTime.Now.Month, diasdomes)
 
-                'anterior.quandosaiominutos(DateTime.Now.Month, diasdomes) = empregados(i).quandosaiominutos(DateTime.Now.Month, diasdomes)
-                'empregados(i).quandosaiominutos(DateTime.Now.Month, diasdomes) = atual.quandosaiominutos(DateTime.Now.Month, diasdomes)
-                'atual.quandosaiominutos(DateTime.Now.Month, diasdomes) = anterior.quandosaiominutos(DateTime.Now.Month, diasdomes)
+                anterior.quandosaiominutos(DateTime.Now.Month, diasdomes) = empregados(i).quandosaiominutos(DateTime.Now.Month, diasdomes)
+                empregados(i).quandosaiominutos(DateTime.Now.Month, diasdomes) = atual.quandosaiominutos(DateTime.Now.Month, diasdomes)
+                atual.quandosaiominutos(DateTime.Now.Month, diasdomes) = anterior.quandosaiominutos(DateTime.Now.Month, diasdomes)
             Next
 
 

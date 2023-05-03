@@ -30,12 +30,9 @@
     End Sub
 
     Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If UBound(empregados) = 0 Then
-            ReDim empregados(0)
-        End If
-        If UBound(admin) = 0 Then
-            ReDim admin(0)
-        End If
+
+        ReDim empregados(0)
+        ReDim admin(0)
 
         empregados(0).nome = ("joao")
         empregados(0).palavrapasse = ("oreo")
@@ -44,6 +41,7 @@
         admin(0).palavrapasse = "pintas"
 
         For Each empregado As empregado In empregados
+            ReDim Preserve empregado.quandoentrouhoras(DateTime.Now.Month, 31)
             ReDim Preserve empregado.quandoentrouhoras(DateTime.Now.Month, 31)
             ReDim Preserve empregado.quandosaiominutos(DateTime.Now.Month, 31)
             ReDim Preserve empregado.quandoentrouminutos(DateTime.Now.Month, 31)
