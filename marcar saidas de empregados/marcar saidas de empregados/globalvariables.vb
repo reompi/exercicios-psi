@@ -12,6 +12,7 @@
 
         Dim tickermarcada As Integer
 
+        Dim dianterior As Integer
         Dim flag As Boolean
     End Structure
 

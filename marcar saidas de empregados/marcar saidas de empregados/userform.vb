@@ -1,11 +1,11 @@
 ﻿
 Public Class userform
-    Dim dianterior As Integer
+
     Private ticker2 As Integer
 
     Private Sub entradasbutao_Click(sender As Object, e As EventArgs) Handles entradasbutao.Click
 
-        If empregados(usernumero).flag = False And dianterior = DateTime.Now.Day Then
+        If empregados(usernumero).flag = False And empregados(usernumero).dianterior = DateTime.Now.Day Then
             Exit Sub
         End If
 
@@ -16,7 +16,8 @@ Public Class userform
         ReDim Preserve empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, 31)
 
         ReDim Preserve empregados(usernumero).quandosaiominutos(DateTime.Now.Month, 31)
-        dianterior = DateTime.Now.Day
+
+        empregados(usernumero).dianterior = DateTime.Now.Day
 
 
         If empregados(usernumero).tickermarcada Mod 2 = 0 Then
@@ -51,14 +52,14 @@ Public Class userform
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Me.Close()
+        Me.Hide()
         login.Show()
     End Sub
 
 
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        Me.Close()
+        Me.Hide()
         userformdados.Show()
     End Sub
 

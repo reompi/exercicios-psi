@@ -5,7 +5,16 @@
         Dim diferencatotal As Integer
 
 
-        For x = 1 To 31
+        For x = 4 To 31
+
+            ReDim Preserve empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, 31)
+
+            ReDim Preserve empregados(usernumero).quandosaiohoras(DateTime.Now.Month, 31)
+
+            ReDim Preserve empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, 31)
+
+            ReDim Preserve empregados(usernumero).quandosaiominutos(DateTime.Now.Month, 31)
+
             If empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, x) <= empregados(usernumero).quandosaiominutos(DateTime.Now.Month, x) Then
                 diferencamin = empregados(usernumero).quandosaiominutos(DateTime.Now.Month, x) - empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, x)
                 diferencahoras = empregados(usernumero).quandosaiohoras(DateTime.Now.Month, x) - empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, x)
@@ -16,7 +25,12 @@
             diferencatotal = 60 * diferencahoras + diferencamin
 
             If diferencahoras = 0 Then
-                Me.Chart1.Series("minutos").Points.AddXY(x, diferencamin)
+                If diferencamin < 0 Then
+                    Me.Chart1.Series("minutos").Points.AddXY(x, DateTime.Now.TimeOfDay.Minutes - diferencamin)
+                Else
+                    Me.Chart1.Series("minutos").Points.AddXY(x, diferencamin)
+                End If
+
             Else
                 Me.Chart1.Series("minutos").Points.AddXY(x, diferencatotal)
             End If
