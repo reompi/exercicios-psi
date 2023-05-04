@@ -1,18 +1,25 @@
 ﻿
 Public Class userform
     Dim dianterior As Integer
-    Dim ticker, ticker2 As Integer
-    Dim flag As Boolean = True
+    Private ticker2 As Integer
+
     Private Sub entradasbutao_Click(sender As Object, e As EventArgs) Handles entradasbutao.Click
 
-        If flag = False And dianterior = DateTime.Now.Day Then
+        If empregados(usernumero).flag = False And dianterior = DateTime.Now.Day Then
             Exit Sub
         End If
 
+        ReDim Preserve empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, 31)
+
+        ReDim Preserve empregados(usernumero).quandosaiohoras(DateTime.Now.Month, 31)
+
+        ReDim Preserve empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, 31)
+
+        ReDim Preserve empregados(usernumero).quandosaiominutos(DateTime.Now.Month, 31)
         dianterior = DateTime.Now.Day
 
 
-        If ticker Mod 2 = 0 Then
+        If empregados(usernumero).tickermarcada Mod 2 = 0 Then
             Label1.Text = ("saída")
             entradasbutao.Image = My.Resources.poweroff
             empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, DateTime.Now.Day) = DateTime.Now.TimeOfDay.Hours
@@ -20,7 +27,7 @@ Public Class userform
             Label2.Text = empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, DateTime.Now.Day).ToString & " : " & empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, DateTime.Now.Day)
             Timer1.Start()
             ticker2 = 0
-            flag = True
+            empregados(usernumero).flag = True
         Else
             Label1.Text = ("entrada")
             entradasbutao.Image = My.Resources.poweron
@@ -29,10 +36,10 @@ Public Class userform
             Label2.Text = empregados(usernumero).quandosaiohoras(DateTime.Now.Month, DateTime.Now.Day).ToString & " : " & empregados(usernumero).quandosaiominutos(DateTime.Now.Month, DateTime.Now.Day)
             Timer1.Start()
             ticker2 = 0
-            flag = False
+            empregados(usernumero).flag = False
 
         End If
-        ticker += 1
+        empregados(usernumero).tickermarcada += 1
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
@@ -43,8 +50,10 @@ Public Class userform
         End If
     End Sub
 
-
-
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Me.Close()
+        login.Show()
+    End Sub
 
 
 

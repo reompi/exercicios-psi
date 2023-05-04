@@ -30,6 +30,7 @@ Partial Class userform
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.entradasbutao = New System.Windows.Forms.PictureBox()
+        Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.entradasbutao, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -98,12 +99,24 @@ Partial Class userform
         Me.entradasbutao.TabIndex = 0
         Me.entradasbutao.TabStop = False
         '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.Silver
+        Me.Button5.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Button5.Location = New System.Drawing.Point(27, 271)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(111, 37)
+        Me.Button5.TabIndex = 32
+        Me.Button5.Text = "sair da conta"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
         'userform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DimGray
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Panel1)
@@ -125,4 +138,5 @@ Partial Class userform
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button2 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
 End Class

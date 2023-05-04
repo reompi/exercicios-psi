@@ -72,6 +72,7 @@
             empregados(i).palavrapasse = atual.palavrapasse
             atual.palavrapasse = anterior.palavrapasse
 
+
             For diasdomes = 1 To 31
 
                 anterior.quandoentrouhoras(DateTime.Now.Month, diasdomes) = empregados(i).quandoentrouhoras(DateTime.Now.Month, diasdomes)

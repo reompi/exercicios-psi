@@ -13,7 +13,7 @@
         Next
         ReDim Preserve empregados(UBound(empregados) + 1)
 
-            ReDim Preserve empregados(UBound(empregados)).quandoentrouhoras(DateTime.Now.Month, 31)
+        ReDim Preserve empregados(UBound(empregados)).quandoentrouhoras(DateTime.Now.Month, 31)
             ReDim Preserve empregados(UBound(empregados)).quandosaiominutos(DateTime.Now.Month, 31)
             ReDim Preserve empregados(UBound(empregados)).quandoentrouminutos(DateTime.Now.Month, 31)
             ReDim Preserve empregados(UBound(empregados)).quandosaiohoras(DateTime.Now.Month, 31)
@@ -36,7 +36,11 @@
         adminform.Show()
     End Sub
 
-    Private Sub adicionarusersform_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Me.Close()
+        login.Show()
     End Sub
+
+
 End Class

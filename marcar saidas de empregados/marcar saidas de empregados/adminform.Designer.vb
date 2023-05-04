@@ -31,6 +31,7 @@ Partial Class adminform
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -122,12 +123,24 @@ Partial Class adminform
         Me.Label1.TabIndex = 39
         Me.Label1.Text = "analisar dados"
         '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.Silver
+        Me.Button6.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Button6.Location = New System.Drawing.Point(21, 350)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(111, 37)
+        Me.Button6.TabIndex = 40
+        Me.Button6.Text = "sair da conta"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
         'adminform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DimGray
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -153,4 +166,5 @@ Partial Class adminform
     Friend WithEvents Button3 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button6 As Button
 End Class

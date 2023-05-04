@@ -10,6 +10,9 @@
         Dim quandosaiohoras(,) As Integer
         Dim quandosaiominutos(,) As Integer
 
+        Dim tickermarcada As Integer
+
+        Dim flag As Boolean
     End Structure
 
         Public Structure admins
