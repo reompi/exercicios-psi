@@ -13,13 +13,13 @@
         Next
         ReDim Preserve empregados(UBound(empregados) + 1)
 
-        ReDim Preserve empregados(UBound(empregados)).quandoentrouhoras(DateTime.Now.Month, 31)
-            ReDim Preserve empregados(UBound(empregados)).quandosaiominutos(DateTime.Now.Month, 31)
-            ReDim Preserve empregados(UBound(empregados)).quandoentrouminutos(DateTime.Now.Month, 31)
-            ReDim Preserve empregados(UBound(empregados)).quandosaiohoras(DateTime.Now.Month, 31)
+        ReDim Preserve empregados(UBound(empregados)).quandoentrouhoras(DateTime.Now.Month, quantosdiastemes)
+        ReDim Preserve empregados(UBound(empregados)).quandosaiominutos(DateTime.Now.Month, quantosdiastemes)
+        ReDim Preserve empregados(UBound(empregados)).quandoentrouminutos(DateTime.Now.Month, quantosdiastemes)
+        ReDim Preserve empregados(UBound(empregados)).quandosaiohoras(DateTime.Now.Month, quantosdiastemes)
 
 
-            empregados(UBound(empregados)).nome = nome.Text
+        empregados(UBound(empregados)).nome = nome.Text
 
             empregados(UBound(empregados)).palavrapasse = passe.Text
 

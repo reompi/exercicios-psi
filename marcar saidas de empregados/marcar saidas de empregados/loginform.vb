@@ -30,7 +30,33 @@
     End Sub
 
     Private Sub login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Select Case DateTime.Now.Month
+            Case 1
+                quantosdiastemes = 31
+            Case 2
+                quantosdiastemes = 28
+            Case 3
+                quantosdiastemes = 31
+            Case 4
+                quantosdiastemes = 30
+            Case 5
+                quantosdiastemes = 31
+            Case 6
+                quantosdiastemes = 30
+            Case 7
+                quantosdiastemes = 31
+            Case 8
+                quantosdiastemes = 31
+            Case 9
+                quantosdiastemes = 30
+            Case 10
+                quantosdiastemes = 31
+            Case 11
+                quantosdiastemes = 30
+            Case 12
+                quantosdiastemes = 31
 
+        End Select
         ReDim empregados(0)
         ReDim admin(0)
 
@@ -41,11 +67,11 @@
         admin(0).palavrapasse = "pintas"
 
         For Each empregado As empregado In empregados
-            ReDim Preserve empregado.quandoentrouhoras(DateTime.Now.Month, 31)
-            ReDim Preserve empregado.quandoentrouhoras(DateTime.Now.Month, 31)
-            ReDim Preserve empregado.quandosaiominutos(DateTime.Now.Month, 31)
-            ReDim Preserve empregado.quandoentrouminutos(DateTime.Now.Month, 31)
-            ReDim Preserve empregado.quandosaiohoras(DateTime.Now.Month, 31)
+            ReDim Preserve empregado.quandoentrouhoras(DateTime.Now.Month, quantosdiastemes)
+            ReDim Preserve empregado.quandoentrouhoras(DateTime.Now.Month, quantosdiastemes)
+            ReDim Preserve empregado.quandosaiominutos(DateTime.Now.Month, quantosdiastemes)
+            ReDim Preserve empregado.quandoentrouminutos(DateTime.Now.Month, quantosdiastemes)
+            ReDim Preserve empregado.quandosaiohoras(DateTime.Now.Month, quantosdiastemes)
         Next
 
     End Sub

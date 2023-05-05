@@ -5,15 +5,15 @@
         Dim diferencatotal As Integer
 
 
-        For x = 1 To 31
+        For x = 1 To quantosdiastemes
 
-            ReDim Preserve empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, quantosdiastemes)
 
-            ReDim Preserve empregados(usernumero).quandosaiohoras(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(usernumero).quandosaiohoras(DateTime.Now.Month, quantosdiastemes)
 
-            ReDim Preserve empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, quantosdiastemes)
 
-            ReDim Preserve empregados(usernumero).quandosaiominutos(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(usernumero).quandosaiominutos(DateTime.Now.Month, quantosdiastemes)
 
             If empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, x) <= empregados(usernumero).quandosaiominutos(DateTime.Now.Month, x) Then
                 diferencamin = empregados(usernumero).quandosaiominutos(DateTime.Now.Month, x) - empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, x)

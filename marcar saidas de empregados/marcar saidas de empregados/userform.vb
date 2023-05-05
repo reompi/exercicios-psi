@@ -9,13 +9,13 @@ Public Class userform
             Exit Sub
         End If
 
-        ReDim Preserve empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, 31)
+        ReDim Preserve empregados(usernumero).quandoentrouhoras(DateTime.Now.Month, quantosdiastemes)
 
-        ReDim Preserve empregados(usernumero).quandosaiohoras(DateTime.Now.Month, 31)
+        ReDim Preserve empregados(usernumero).quandosaiohoras(DateTime.Now.Month, quantosdiastemes)
 
-        ReDim Preserve empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, 31)
+        ReDim Preserve empregados(usernumero).quandoentrouminutos(DateTime.Now.Month, quantosdiastemes)
 
-        ReDim Preserve empregados(usernumero).quandosaiominutos(DateTime.Now.Month, 31)
+        ReDim Preserve empregados(usernumero).quandosaiominutos(DateTime.Now.Month, quantosdiastemes)
 
         empregados(usernumero).dianterior = DateTime.Now.Day
 

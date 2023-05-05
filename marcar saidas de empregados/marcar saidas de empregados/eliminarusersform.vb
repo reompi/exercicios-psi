@@ -14,15 +14,15 @@
             End Try
         Next
 
-        ReDim anterior.quandoentrouhoras(DateTime.Now.Month, 31)
-        ReDim anterior.quandosaiominutos(DateTime.Now.Month, 31)
-        ReDim anterior.quandoentrouminutos(DateTime.Now.Month, 31)
-        ReDim anterior.quandosaiohoras(DateTime.Now.Month, 31)
+        ReDim anterior.quandoentrouhoras(DateTime.Now.Month, quantosdiastemes)
+        ReDim anterior.quandosaiominutos(DateTime.Now.Month, quantosdiastemes)
+        ReDim anterior.quandoentrouminutos(DateTime.Now.Month, quantosdiastemes)
+        ReDim anterior.quandosaiohoras(DateTime.Now.Month, quantosdiastemes)
 
-        ReDim atual.quandoentrouhoras(DateTime.Now.Month, 31)
-        ReDim atual.quandosaiominutos(DateTime.Now.Month, 31)
-        ReDim atual.quandoentrouminutos(DateTime.Now.Month, 31)
-        ReDim atual.quandosaiohoras(DateTime.Now.Month, 31)
+        ReDim atual.quandoentrouhoras(DateTime.Now.Month, quantosdiastemes)
+        ReDim atual.quandosaiominutos(DateTime.Now.Month, quantosdiastemes)
+        ReDim atual.quandoentrouminutos(DateTime.Now.Month, quantosdiastemes)
+        ReDim atual.quandosaiohoras(DateTime.Now.Month, quantosdiastemes)
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -35,6 +35,10 @@
         adicionarusersform.Show()
     End Sub
 
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Me.Close()
+        login.Show()
+    End Sub
 
     Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
         ticker = 0
@@ -55,13 +59,13 @@
         For i = UBound(empregados) To contaeliminada Step -1
 
 
-            ReDim Preserve empregados(i).quandoentrouhoras(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(i).quandoentrouhoras(DateTime.Now.Month, quantosdiastemes)
 
-            ReDim Preserve empregados(i).quandosaiohoras(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(i).quandosaiohoras(DateTime.Now.Month, quantosdiastemes)
 
-            ReDim Preserve empregados(i).quandoentrouminutos(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(i).quandoentrouminutos(DateTime.Now.Month, quantosdiastemes)
 
-            ReDim Preserve empregados(i).quandosaiominutos(DateTime.Now.Month, 31)
+            ReDim Preserve empregados(i).quandosaiominutos(DateTime.Now.Month, quantosdiastemes)
 
             anterior.nome = empregados(i).nome
             empregados(i).nome = atual.nome
@@ -73,7 +77,20 @@
             atual.palavrapasse = anterior.palavrapasse
 
 
-            For diasdomes = 1 To 31
+            anterior.tickermarcada = empregados(i).tickermarcada
+            empregados(i).tickermarcada = atual.tickermarcada
+            atual.tickermarcada = anterior.tickermarcada
+
+
+            anterior.dianterior = empregados(i).dianterior
+            empregados(i).dianterior = atual.dianterior
+            atual.dianterior = anterior.dianterior
+
+            anterior.flag = empregados(i).flag
+            empregados(i).flag = atual.flag
+            atual.flag = anterior.flag
+
+            For diasdomes = 1 To quantosdiastemes
 
                 anterior.quandoentrouhoras(DateTime.Now.Month, diasdomes) = empregados(i).quandoentrouhoras(DateTime.Now.Month, diasdomes)
                 empregados(i).quandoentrouhoras(DateTime.Now.Month, diasdomes) = atual.quandoentrouhoras(DateTime.Now.Month, diasdomes)

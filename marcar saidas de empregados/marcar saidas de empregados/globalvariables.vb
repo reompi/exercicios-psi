@@ -14,7 +14,7 @@
 
         Dim dianterior As Integer
         Dim flag As Boolean
-        Dim flag24h As Boolean
+
     End Structure
 
         Public Structure admins
@@ -25,7 +25,7 @@
     Public empregados() As empregado
     Public admin() As admins
     Public usernumero As Integer
-
+    Public quantosdiastemes As Integer
 
 
 
