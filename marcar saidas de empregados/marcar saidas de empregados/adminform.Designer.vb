@@ -23,8 +23,6 @@ Partial Class adminform
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -43,23 +41,6 @@ Partial Class adminform
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(226, 225)
         Me.ListBox1.TabIndex = 0
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.TextBox1.Location = New System.Drawing.Point(333, 96)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(159, 20)
-        Me.TextBox1.TabIndex = 1
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(498, 96)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(61, 20)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "procurar"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Button4
         '
@@ -146,8 +127,6 @@ Partial Class adminform
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ListBox1)
         Me.Name = "adminform"
         Me.Text = "adminform"
@@ -158,8 +137,6 @@ Partial Class adminform
     End Sub
 
     Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button1 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Panel1 As Panel
