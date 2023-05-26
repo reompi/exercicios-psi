@@ -1,10 +1,10 @@
 ﻿Public Class Template
 
     Public Sub criarPictureBoxes()
-        criarLayer4()
-        criarLayer3()
-        criarLayer2()
-        criarLayer1()
+        'criarLayer4()
+        'criarLayer3()
+        'criarLayer2()
+        'criarLayer1()
         criarLayer0()
         criarTilesAssimetricas()
     End Sub
@@ -12,9 +12,11 @@
     Private Sub criarLayer4()
 
         Dim layer = 4
-        tilesLayer(7, 4) = CreatePictureBox(135 + 4 * 70 - 35, 60 + 7 * 70 - 35, "PictureBoxlayer " & layer & "0", layer)
-        mainForm.Controls.Add(tilesLayer(7, 4))
+        tilesLayer4(7, 4).picturebox = CreatePictureBox(135 + 4 * 70 - 35, 60 + 7 * 70 - 35, "PictureBoxlayer " & layer & "0", layer)
+        mainForm.Controls.Add(tilesLayer4(7, 4).picturebox)
         tilesList.Add(tilesLayer4(7, 4))
+        tilesLayer(7, 4).visibilidade = tilesVisbilidade.shown
+
     End Sub
 
     Private Sub criarLayer3()
@@ -22,10 +24,11 @@
         Dim layer = 3
         For y As Integer = 3 To 4
             For x As Integer = 6 To 7
-                tilesLayer(7, 4) = CreatePictureBox(135 + y * 70, 60 + x * 70, "PictureBoxLayer3 " & layer & ticker, layer)
-                mainForm.Controls.Add(tilesLayer(7, 4))
-                tilesList.Add(tilesLayer3(7, 4))
+                tilesLayer3(x, y).picturebox = CreatePictureBox(135 + y * 70, 60 + x * 70, "PictureBoxLayer3 " & layer & ticker, layer)
+                mainForm.Controls.Add(tilesLayer3(x, y).picturebox)
+                tilesList.Add(tilesLayer3(x, y))
                 ticker += 1
+                tilesLayer3(x, y).visibilidade = tilesVisbilidade.shown
             Next
         Next
     End Sub
@@ -35,10 +38,11 @@
         Dim layer = 2
         For y As Integer = 2 To 5
             For x As Integer = 5 To 8
-                tilesLayer(7, 4) = CreatePictureBox(135 + y * 70, 60 + x * 70, "PictureBoxLayer2 " & layer & ticker, layer)
-                mainForm.Controls.Add(tilesLayer(7, 4))
-                tilesList.Add(tilesLayer2(7, 4))
+                tilesLayer2(x, y).picturebox = CreatePictureBox(135 + y * 70, 60 + x * 70, "PictureBoxLayer2 " & layer & ticker, layer)
+                mainForm.Controls.Add(tilesLayer2(x, y).picturebox)
+                tilesList.Add(tilesLayer2(x, y))
                 ticker += 1
+                tilesLayer2(x, y).visibilidade = tilesVisbilidade.shown
             Next
         Next
     End Sub
@@ -48,10 +52,11 @@
         Dim layer = 1
         For y As Integer = 1 To 6
             For x As Integer = 4 To 9
-                tilesLayer(7, 4) = CreatePictureBox(135 + y * 70, 60 + x * 70, "PictureBoxLayer1 " & layer & ticker, layer)
-                mainForm.Controls.Add(tilesLayer(7, 4))
-                tilesList.Add(tilesLayer1(7, 4))
+                tilesLayer1(x, y).picturebox = CreatePictureBox(135 + y * 70, 60 + x * 70, "PictureBoxLayer1 " & layer & ticker, layer)
+                mainForm.Controls.Add(tilesLayer1(x, y).picturebox)
+                tilesList.Add(tilesLayer1(x, y))
                 ticker += 1
+                tilesLayer1(x, y).visibilidade = tilesVisbilidade.shown
             Next
         Next
     End Sub
@@ -65,10 +70,11 @@
                     Continue For
                 End If
 
-                tilesLayer(7, 4) = CreatePictureBox(135 + y * 70, 60 + x * 70, "PictureBoxLayer" & layer & ticker, layer)
-                mainForm.Controls.Add(tilesLayer(7, 4))
-                tilesList.Add(tilesLayer(7, 4))
+                tilesLayer(x, y).picturebox = CreatePictureBox(135 + y * 70, 60 + x * 70, "PictureBoxLayer" & layer & ticker, layer)
+                mainForm.Controls.Add(tilesLayer(x, y).picturebox)
+                tilesList.Add(tilesLayer(x, y))
                 ticker += 1
+                tilesLayer(x, y).visibilidade = tilesVisbilidade.shown
             Next
         Next
     End Sub
@@ -77,9 +83,10 @@
         Dim assimetricasTiles() As Integer = {0, 13, 14}
 
         For Each x As Integer In assimetricasTiles
-            tilesLayer(7, 4) = CreatePictureBox(135 + 4 * 70 - 35, 60 + x * 70, "PictureBox" & x, 0)
-            mainForm.Controls.Add(tilesLayer(7, 4))
-            tilesList.Add(tilesLayer(7, 4))
+            tilesLayerAssimetricas(x, 4).picturebox = CreatePictureBox(135 + 4 * 70 - 35, 60 + x * 70, "PictureBox" & x, 0)
+            mainForm.Controls.Add(tilesLayerAssimetricas(x, 4).picturebox)
+            tilesList.Add(tilesLayerAssimetricas(x, 4))
+
         Next
     End Sub
 
