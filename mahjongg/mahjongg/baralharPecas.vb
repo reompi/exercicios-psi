@@ -7,7 +7,6 @@
     Dim meioX As Integer = 6
     Dim meioY As Integer = 3
     Sub baralharInicio()
-        Dim _random As Integer
         'layer 0
 
 
@@ -17,13 +16,13 @@
             pecaAtual = getPecaAleatoria()
             tilesLayer(x, x - 3).picturebox.Image = pecaAtual
             tilesLayer(x, x - 3).naoAssinalado = False
-            getPecaAleatoria(x) = pecaAtual
+            getPosicaoParAleatorio(x).Image = pecaAtual
 
 
         Next
 
     End Sub
-    Private Function getPosicaoParAleatorio(x As Integer)
+    Private Function getPosicaoParAleatorio(x As Integer) As PictureBox
         Dim _random As Integer
 
 
@@ -39,7 +38,7 @@
                 posicaoParYAleatorio = ticker + meioY
                 posicaoParXAleatorio = ticker + meioX
         End Select
-        Return tilesLayer(posicaoParXAleatorio, posicaoParYAleatorio).picturebox.Image
+        Return tilesLayer(posicaoParXAleatorio, posicaoParYAleatorio).picturebox
     End Function
     Private Function getPecaAleatoria()
 
